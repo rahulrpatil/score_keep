@@ -17,8 +17,3 @@ export default class App extends React.Component {
         )
     }
 }
-
-PlayerList.propTypes = {
-    title: PropTypes.string.isRequired,
-    players: PropTypes.array.isRequired
-};
